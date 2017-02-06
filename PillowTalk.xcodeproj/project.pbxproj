@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB44A1361E49321300FE932A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB44A1351E49321300FE932A /* AppDelegate.swift */; };
+		BB44A1381E49321300FE932A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB44A1371E49321300FE932A /* ViewController.swift */; };
+		BB44A13B1E49321300FE932A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB44A1391E49321300FE932A /* Main.storyboard */; };
+		BB44A13E1E49321300FE932A /* PillowTalk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB44A13C1E49321300FE932A /* PillowTalk.xcdatamodeld */; };
+		BB44A1401E49321300FE932A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB44A13F1E49321300FE932A /* Assets.xcassets */; };
+		BB44A1431E49321300FE932A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB44A1411E49321300FE932A /* LaunchScreen.storyboard */; };
+		BB44A14E1E49321400FE932A /* PillowTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB44A14D1E49321400FE932A /* PillowTalkTests.swift */; };
+		BB44A1591E49321400FE932A /* PillowTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB44A1581E49321400FE932A /* PillowTalkUITests.swift */; };
+		BB44A1671E4935F200FE932A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB44A1661E4935F200FE932A /* GoogleService-Info.plist */; };
+		BEF14A5377CC733479CD4693 /* Pods_PillowTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D15C70FAC5C6F6D50A4F4E6 /* Pods_PillowTalk.framework */; };
+		CAE9CD58AB9DD154BE59556C /* Pods_PillowTalkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F48D597DA8440DCB1501F4A /* Pods_PillowTalkUITests.framework */; };
+		EFC5A741DC4CD701EDF5ECA4 /* Pods_PillowTalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31129E9B7FCC5F731DB0068 /* Pods_PillowTalkTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB44A14A1E49321400FE932A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB44A12A1E49321300FE932A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB44A1311E49321300FE932A;
+			remoteInfo = PillowTalk;
+		};
+		BB44A1551E49321400FE932A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB44A12A1E49321300FE932A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB44A1311E49321300FE932A;
+			remoteInfo = PillowTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F48D597DA8440DCB1501F4A /* Pods_PillowTalkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PillowTalkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D15C70FAC5C6F6D50A4F4E6 /* Pods_PillowTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PillowTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E95A96030FA0E8A5891498 /* Pods-PillowTalkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PillowTalkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PillowTalkUITests/Pods-PillowTalkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E2C26782B17EE989AAD424D /* Pods-PillowTalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PillowTalkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PillowTalkTests/Pods-PillowTalkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE7499256F2FF3AEDDA3B78C /* Pods-PillowTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PillowTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-PillowTalk/Pods-PillowTalk.release.xcconfig"; sourceTree = "<group>"; };
+		BB44A1321E49321300FE932A /* PillowTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PillowTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB44A1351E49321300FE932A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB44A1371E49321300FE932A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB44A13A1E49321300FE932A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB44A13D1E49321300FE932A /* PillowTalk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PillowTalk.xcdatamodel; sourceTree = "<group>"; };
+		BB44A13F1E49321300FE932A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB44A1421E49321300FE932A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB44A1441E49321300FE932A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB44A1491E49321400FE932A /* PillowTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PillowTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB44A14D1E49321400FE932A /* PillowTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillowTalkTests.swift; sourceTree = "<group>"; };
+		BB44A14F1E49321400FE932A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB44A1541E49321400FE932A /* PillowTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PillowTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB44A1581E49321400FE932A /* PillowTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillowTalkUITests.swift; sourceTree = "<group>"; };
+		BB44A15A1E49321400FE932A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB44A1661E4935F200FE932A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DADE412B2D7F215808BF452C /* Pods-PillowTalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PillowTalkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PillowTalkTests/Pods-PillowTalkTests.release.xcconfig"; sourceTree = "<group>"; };
+		E0865EEED9F6D0424CDC244F /* Pods-PillowTalkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PillowTalkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PillowTalkUITests/Pods-PillowTalkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E977B352ACC1FA99776027C1 /* Pods-PillowTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PillowTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PillowTalk/Pods-PillowTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		F31129E9B7FCC5F731DB0068 /* Pods_PillowTalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PillowTalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB44A12F1E49321300FE932A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF14A5377CC733479CD4693 /* Pods_PillowTalk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB44A1461E49321400FE932A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC5A741DC4CD701EDF5ECA4 /* Pods_PillowTalkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB44A1511E49321400FE932A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE9CD58AB9DD154BE59556C /* Pods_PillowTalkUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		221C1F02315DF0AC33BE8BEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E977B352ACC1FA99776027C1 /* Pods-PillowTalk.debug.xcconfig */,
+				AE7499256F2FF3AEDDA3B78C /* Pods-PillowTalk.release.xcconfig */,
+				9E2C26782B17EE989AAD424D /* Pods-PillowTalkTests.debug.xcconfig */,
+				DADE412B2D7F215808BF452C /* Pods-PillowTalkTests.release.xcconfig */,
+				90E95A96030FA0E8A5891498 /* Pods-PillowTalkUITests.debug.xcconfig */,
+				E0865EEED9F6D0424CDC244F /* Pods-PillowTalkUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		971365E5FDDA2BCA2CE102F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D15C70FAC5C6F6D50A4F4E6 /* Pods_PillowTalk.framework */,
+				F31129E9B7FCC5F731DB0068 /* Pods_PillowTalkTests.framework */,
+				1F48D597DA8440DCB1501F4A /* Pods_PillowTalkUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB44A1291E49321300FE932A = {
+			isa = PBXGroup;
+			children = (
+				BB44A1341E49321300FE932A /* PillowTalk */,
+				BB44A14C1E49321400FE932A /* PillowTalkTests */,
+				BB44A1571E49321400FE932A /* PillowTalkUITests */,
+				BB44A1331E49321300FE932A /* Products */,
+				221C1F02315DF0AC33BE8BEE /* Pods */,
+				971365E5FDDA2BCA2CE102F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BB44A1331E49321300FE932A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB44A1321E49321300FE932A /* PillowTalk.app */,
+				BB44A1491E49321400FE932A /* PillowTalkTests.xctest */,
+				BB44A1541E49321400FE932A /* PillowTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB44A1341E49321300FE932A /* PillowTalk */ = {
+			isa = PBXGroup;
+			children = (
+				BB44A1661E4935F200FE932A /* GoogleService-Info.plist */,
+				BB44A1351E49321300FE932A /* AppDelegate.swift */,
+				BB44A1371E49321300FE932A /* ViewController.swift */,
+				BB44A1391E49321300FE932A /* Main.storyboard */,
+				BB44A13F1E49321300FE932A /* Assets.xcassets */,
+				BB44A1411E49321300FE932A /* LaunchScreen.storyboard */,
+				BB44A1441E49321300FE932A /* Info.plist */,
+				BB44A13C1E49321300FE932A /* PillowTalk.xcdatamodeld */,
+			);
+			path = PillowTalk;
+			sourceTree = "<group>";
+		};
+		BB44A14C1E49321400FE932A /* PillowTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB44A14D1E49321400FE932A /* PillowTalkTests.swift */,
+				BB44A14F1E49321400FE932A /* Info.plist */,
+			);
+			path = PillowTalkTests;
+			sourceTree = "<group>";
+		};
+		BB44A1571E49321400FE932A /* PillowTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB44A1581E49321400FE932A /* PillowTalkUITests.swift */,
+				BB44A15A1E49321400FE932A /* Info.plist */,
+			);
+			path = PillowTalkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB44A1311E49321300FE932A /* PillowTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB44A15D1E49321400FE932A /* Build configuration list for PBXNativeTarget "PillowTalk" */;
+			buildPhases = (
+				6373C80E49DA664DA16F75F6 /* [CP] Check Pods Manifest.lock */,
+				BB44A12E1E49321300FE932A /* Sources */,
+				BB44A12F1E49321300FE932A /* Frameworks */,
+				BB44A1301E49321300FE932A /* Resources */,
+				CBAE77A50A91D180B1CF1049 /* [CP] Embed Pods Frameworks */,
+				3CAB2D14EA3AAE82F5707550 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PillowTalk;
+			productName = PillowTalk;
+			productReference = BB44A1321E49321300FE932A /* PillowTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB44A1481E49321400FE932A /* PillowTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB44A1601E49321400FE932A /* Build configuration list for PBXNativeTarget "PillowTalkTests" */;
+			buildPhases = (
+				A668AA1B00F219F56B982498 /* [CP] Check Pods Manifest.lock */,
+				BB44A1451E49321400FE932A /* Sources */,
+				BB44A1461E49321400FE932A /* Frameworks */,
+				BB44A1471E49321400FE932A /* Resources */,
+				E2225DAC550D29F09FC00722 /* [CP] Embed Pods Frameworks */,
+				A54BCF94DB664F68664ACF8A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB44A14B1E49321400FE932A /* PBXTargetDependency */,
+			);
+			name = PillowTalkTests;
+			productName = PillowTalkTests;
+			productReference = BB44A1491E49321400FE932A /* PillowTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB44A1531E49321400FE932A /* PillowTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB44A1631E49321400FE932A /* Build configuration list for PBXNativeTarget "PillowTalkUITests" */;
+			buildPhases = (
+				3EC900D2833E7A21DAD7E4C0 /* [CP] Check Pods Manifest.lock */,
+				BB44A1501E49321400FE932A /* Sources */,
+				BB44A1511E49321400FE932A /* Frameworks */,
+				BB44A1521E49321400FE932A /* Resources */,
+				E7E41A7BC20B904B77347982 /* [CP] Embed Pods Frameworks */,
+				DE3930C4CA8240046217EB7A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB44A1561E49321400FE932A /* PBXTargetDependency */,
+			);
+			name = PillowTalkUITests;
+			productName = PillowTalkUITests;
+			productReference = BB44A1541E49321400FE932A /* PillowTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB44A12A1E49321300FE932A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = PillowTalk;
+				TargetAttributes = {
+					BB44A1311E49321300FE932A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3SZW3Z4QTH;
+						ProvisioningStyle = Automatic;
+					};
+					BB44A1481E49321400FE932A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3SZW3Z4QTH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BB44A1311E49321300FE932A;
+					};
+					BB44A1531E49321400FE932A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3SZW3Z4QTH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BB44A1311E49321300FE932A;
+					};
+				};
+			};
+			buildConfigurationList = BB44A12D1E49321300FE932A /* Build configuration list for PBXProject "PillowTalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB44A1291E49321300FE932A;
+			productRefGroup = BB44A1331E49321300FE932A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB44A1311E49321300FE932A /* PillowTalk */,
+				BB44A1481E49321400FE932A /* PillowTalkTests */,
+				BB44A1531E49321400FE932A /* PillowTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB44A1301E49321300FE932A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB44A1431E49321300FE932A /* LaunchScreen.storyboard in Resources */,
+				BB44A1671E4935F200FE932A /* GoogleService-Info.plist in Resources */,
+				BB44A1401E49321300FE932A /* Assets.xcassets in Resources */,
+				BB44A13B1E49321300FE932A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB44A1471E49321400FE932A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB44A1521E49321400FE932A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CAB2D14EA3AAE82F5707550 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PillowTalk/Pods-PillowTalk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EC900D2833E7A21DAD7E4C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6373C80E49DA664DA16F75F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A54BCF94DB664F68664ACF8A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PillowTalkTests/Pods-PillowTalkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A668AA1B00F219F56B982498 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CBAE77A50A91D180B1CF1049 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PillowTalk/Pods-PillowTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE3930C4CA8240046217EB7A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PillowTalkUITests/Pods-PillowTalkUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2225DAC550D29F09FC00722 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PillowTalkTests/Pods-PillowTalkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7E41A7BC20B904B77347982 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PillowTalkUITests/Pods-PillowTalkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB44A12E1E49321300FE932A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB44A13E1E49321300FE932A /* PillowTalk.xcdatamodeld in Sources */,
+				BB44A1381E49321300FE932A /* ViewController.swift in Sources */,
+				BB44A1361E49321300FE932A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB44A1451E49321400FE932A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB44A14E1E49321400FE932A /* PillowTalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB44A1501E49321400FE932A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB44A1591E49321400FE932A /* PillowTalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB44A14B1E49321400FE932A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB44A1311E49321300FE932A /* PillowTalk */;
+			targetProxy = BB44A14A1E49321400FE932A /* PBXContainerItemProxy */;
+		};
+		BB44A1561E49321400FE932A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB44A1311E49321300FE932A /* PillowTalk */;
+			targetProxy = BB44A1551E49321400FE932A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB44A1391E49321300FE932A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB44A13A1E49321300FE932A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB44A1411E49321300FE932A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB44A1421E49321300FE932A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB44A15B1E49321400FE932A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB44A15C1E49321400FE932A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB44A15E1E49321400FE932A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E977B352ACC1FA99776027C1 /* Pods-PillowTalk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3SZW3Z4QTH;
+				INFOPLIST_FILE = PillowTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PillowTalk.PillowTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BB44A15F1E49321400FE932A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE7499256F2FF3AEDDA3B78C /* Pods-PillowTalk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3SZW3Z4QTH;
+				INFOPLIST_FILE = PillowTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PillowTalk.PillowTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BB44A1611E49321400FE932A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E2C26782B17EE989AAD424D /* Pods-PillowTalkTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3SZW3Z4QTH;
+				INFOPLIST_FILE = PillowTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PillowTalk.PillowTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PillowTalk.app/PillowTalk";
+			};
+			name = Debug;
+		};
+		BB44A1621E49321400FE932A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DADE412B2D7F215808BF452C /* Pods-PillowTalkTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3SZW3Z4QTH;
+				INFOPLIST_FILE = PillowTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PillowTalk.PillowTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PillowTalk.app/PillowTalk";
+			};
+			name = Release;
+		};
+		BB44A1641E49321400FE932A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90E95A96030FA0E8A5891498 /* Pods-PillowTalkUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3SZW3Z4QTH;
+				INFOPLIST_FILE = PillowTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PillowTalk.PillowTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PillowTalk;
+			};
+			name = Debug;
+		};
+		BB44A1651E49321400FE932A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0865EEED9F6D0424CDC244F /* Pods-PillowTalkUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3SZW3Z4QTH;
+				INFOPLIST_FILE = PillowTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PillowTalk.PillowTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PillowTalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB44A12D1E49321300FE932A /* Build configuration list for PBXProject "PillowTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB44A15B1E49321400FE932A /* Debug */,
+				BB44A15C1E49321400FE932A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB44A15D1E49321400FE932A /* Build configuration list for PBXNativeTarget "PillowTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB44A15E1E49321400FE932A /* Debug */,
+				BB44A15F1E49321400FE932A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB44A1601E49321400FE932A /* Build configuration list for PBXNativeTarget "PillowTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB44A1611E49321400FE932A /* Debug */,
+				BB44A1621E49321400FE932A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB44A1631E49321400FE932A /* Build configuration list for PBXNativeTarget "PillowTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB44A1641E49321400FE932A /* Debug */,
+				BB44A1651E49321400FE932A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BB44A13C1E49321300FE932A /* PillowTalk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BB44A13D1E49321300FE932A /* PillowTalk.xcdatamodel */,
+			);
+			currentVersion = BB44A13D1E49321300FE932A /* PillowTalk.xcdatamodel */;
+			path = PillowTalk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BB44A12A1E49321300FE932A /* Project object */;
+}

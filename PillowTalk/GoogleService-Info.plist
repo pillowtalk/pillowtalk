@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>900161295824-io1g530il2ajj8cbvgns4jttnji3f6ft.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.900161295824-io1g530il2ajj8cbvgns4jttnji3f6ft</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCfa30oQUd7SuhM-7rAUR74qHlb9OAO4g4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>900161295824</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>PillowTalk.PillowTalk</string>
+	<key>PROJECT_ID</key>
+	<string>pillow-talk-58c78</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pillow-talk-58c78.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:900161295824:ios:1cba822e419c2903</string>
+	<key>DATABASE_URL</key>
+	<string>https://pillow-talk-58c78.firebaseio.com</string>
+</dict>
+</plist>
